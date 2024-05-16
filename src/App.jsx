@@ -7,6 +7,7 @@ import ClassComponent from './Components/ClassComponent'
 import Person from './Components/Person'
 import Click from './Components/Click'
 import WindowResize from './Components/WindowResize'
+import ListMap from './Components/ListMap'
 
 function App() {
 
@@ -17,9 +18,12 @@ function App() {
       {/* <Person name="Name" age={23} />
       <Person name="Student" age={19} /> */}
 
-      <Click message="welcome to react" />
+      {/* <Click message="welcome to react" /> */}
 
       {/* <WindowResize /> */}
+
+
+      <ListMap />
     </>
   )
 }
