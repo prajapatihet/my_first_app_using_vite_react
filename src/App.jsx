@@ -17,9 +17,9 @@ function App() {
       {/* <Person name="Name" age={23} />
       <Person name="Student" age={19} /> */}
 
-      {/* <Click message="welcome to react" /> */}
+      <Click message="welcome to react" />
 
-      <WindowResize />
+      {/* <WindowResize /> */}
     </>
   )
 }
